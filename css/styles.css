@@ -80,10 +80,20 @@ body {
   animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   padding-left: 10em;
   padding-right: 5em;
-  margin-right: 50%;
+  margin-right: 45%;
   padding-bottom: 5em;
   margin-top: -6em;
   font-family: Nunito, sans-serif;
   font-size: 1em;
   color: #5F5F5F;
+}
+
+img {
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  display: absolute;
+  width: 28em;
+  align: right;
+  margin-left: 55%;
+  margin-top: -40em;
+  padding-bottom: 4em;
 }
