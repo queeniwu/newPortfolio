@@ -122,51 +122,56 @@ body {
 
 .bioanswer {
   text-align: right;
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  text-align: right;
   position: relative;
   right: 0px;
-  padding-bottom: 0em;
+  bottom: 10px;
   font-family: 'Cabin', sans-serif;
   font-size: 2.5em;
   font-style: normal;
   font-weight: 800;
   line-height: 1.4em;
   color: #FDFDFD;
-  width: 40%;
-  padding-left: 40%;
   -webkit-text-stroke-width: 1.5px;
    -webkit-text-stroke-color: #E15A32;
 
 }
 
+.about{
+  padding-left: 10%;
+  padding-right: 20%;
+  margin-left: 35%;
+  padding-bottom: 5em;
+  margin-top: 0em;
+  width: 35%
+}
+
 .bio {
 animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-  padding-left: 17em;
-  padding-right: 5em;
-  margin-left: 45%;
-  padding-bottom: 5em;
-  margin-top: -6em;
   font-family: Nunito, sans-serif;
   font-size: 0.85em;
   font-weight: 200;
   color: #5F5F5F;
+  text-align: right;
 }
 
 img {
   animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   display: block;
-  width: 25em;
+  width: 20em;
   align: left;
-  margin-left: 15em;
-  margin-top: -28em;
+  margin-left: 7em;
+  margin-top: -30em;
   padding-bottom: 4em;
   text-align: left;
   padding-left: 7em;
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-top: 0em;
+  padding-bottom: 10em;
 }
 
 .footer {
-  padding-left: 10em;
+  padding-left: 14em;
   padding-bottom: 8em;
   padding-right:10em;
 }
