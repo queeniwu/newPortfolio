@@ -80,7 +80,7 @@ body {
   animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   position: relative;
   right: 0px;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
   font-family: 'Cabin', sans-serif;
   font-size: 2.5em;
   font-style: normal;
@@ -95,6 +95,10 @@ body {
 }
 
 .answer a{
+text-decoration: none;
+color:inherit;
+-webkit-text-stroke-width: 1.5px;
+ -webkit-text-stroke-color: #E15A32;
 
 }
 
@@ -140,8 +144,8 @@ body {
 
 .about{
   padding-left: 10%;
-  padding-right: 20%;
-  margin-left: 35%;
+  padding-right: 10%;
+  margin-left: 36%;
   padding-bottom: 5em;
   margin-top: 0em;
   width: 35%
@@ -154,12 +158,13 @@ animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   font-weight: 200;
   color: #5F5F5F;
   text-align: right;
+  padding-top: 1em;
 }
 
 img {
   animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   display: block;
-  width: 20em;
+  width: 22%;
   align: left;
   margin-left: 7em;
   margin-top: -30em;
