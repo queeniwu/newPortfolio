@@ -24,18 +24,155 @@
 
 
 body {
-  background-color: #F6F6F6;
-  margin: 0;
+  background-color: #FDFDFD;
 }
 
 .nav {
-  padding-left: 10em;
+  padding-left: 13em;
   padding-top: 5em;
   padding-right:10em;
 }
 
 .nav a {
-  font-family: Hind, sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  line-height: 0.75em;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+  color: #AEAEAE;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 2.8em;
+}
+
+.nav a:hover{
+  color: #E15A32;
+}
+
+.nav card{
+  width: 130px;
+  height: 97px;
+  margin-bottom: -60px;
+  display: inline-block;
+  align: right;
+  background: url("./default.png") no-repeat;
+}
+
+.nav card:hover{
+  background: url("./hovered.png") no-repeat;
+}
+
+.question {
+  text-align: left;
+  padding-left: 7em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2em;
+  color: #C3C3C3;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.answer {
+  text-align: right;
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  position: relative;
+  right: 0px;
+  padding-bottom: 4em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.4em;
+  color: #FDFDFD;
+  width: 40%;
+  padding-left: 40%;
+  -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: #E15A32;
+
+}
+
+.answer a{
+
+}
+
+.answer a:hover{
+  color: #E15A32;
+  font-weight: 700;
+}
+
+.subanswer{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  line-height: 2em;
+  font-size: 0.3em;
+  letter-spacing: 0.05em;
+  color: #AEAEAE;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0px;
+}
+
+.subanswer a:hover{
+  color: #E15A32;
+}
+
+.bioanswer {
+  text-align: right;
+  position: relative;
+  right: 0px;
+  padding-bottom: 0em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.4em;
+  color: #FDFDFD;
+  width: 40%;
+  padding-left: 40%;
+  -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: #E15A32;
+
+}
+
+.bio {
+animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  padding-left: 17em;
+  padding-right: 5em;
+  margin-left: 45%;
+  padding-bottom: 5em;
+  margin-top: -6em;
+  font-family: Nunito, sans-serif;
+  font-size: 0.85em;
+  font-weight: 200;
+  color: #5F5F5F;
+}
+
+img {
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  display: block;
+  width: 25em;
+  align: left;
+  margin-left: 15em;
+  margin-top: -28em;
+  padding-bottom: 4em;
+  text-align: left;
+  padding-left: 7em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.footer {
+  padding-left: 10em;
+  padding-bottom: 8em;
+  padding-right:10em;
+}
+
+.footer a {
+  font-family: 'Nunito', sans-serif;
   font-weight: bold;
   line-height: 0.75em;
   font-size: 0.75em;
@@ -43,57 +180,10 @@ body {
   color: #AEAEAE;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
   margin-right: 2.8em;
 }
 
-.nav a:hover{
-  color: #0C3B62;
-}
-
-.question {
-  text-align: right;
-  padding-right: 5em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  font-family: Hind, sans-serif;
-  font-size: 2em;
-  color: #C3C3C3;
-  line-height: 1.4em;
-}
-
-.answer {
-  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-  text-align: left;
-  padding-left: 5em;
-  padding-top: 0em;
-  padding-bottom: 5em;
-  font-family: Hind, sans-serif;
-  font-size: 2em;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 1.4em;
-  color: #0C3B62;
-
-}
-
-.bio {
-  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-  padding-left: 10em;
-  padding-right: 5em;
-  margin-right: 45%;
-  padding-bottom: 5em;
-  margin-top: -6em;
-  font-family: Nunito, sans-serif;
-  font-size: 1em;
-  color: #5F5F5F;
-}
-
-img {
-  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-  display: absolute;
-  width: 28em;
-  align: right;
-  margin-left: 55%;
-  margin-top: -40em;
-  padding-bottom: 4em;
+.footer a:hover{
+  color: #E15A32;
 }
