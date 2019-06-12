@@ -78,9 +78,9 @@ body {
 .header {
   text-align: right;
   animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-  position: absolute;
-  right: 10em;
-  padding-bottom: 3em;
+  position: relative;
+  right: 0px;
+  padding-bottom: 0em;
   font-family: 'Cabin', sans-serif;
   font-size: 2.5em;
   font-style: normal;
@@ -88,16 +88,17 @@ body {
   line-height: 1.4em;
   color: #FDFDFD;
   width: 60%;
-  padding-left: 5em;
+  padding-left: 20%;
   -webkit-text-stroke-width: 1.5px;
    -webkit-text-stroke-color: #E15A32;
+   margin-top: 2em;
 
 }
 
 .subheader{
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  line-height: 2em;
+  line-height: 0em;
   font-size: 0.3em;
   letter-spacing: 0.05em;
   color: #AEAEAE;
@@ -105,37 +106,28 @@ body {
   text-decoration: none;
   font-weight: bold;
   -webkit-text-stroke-width: 0px;
+  margin-top: -2em;
 }
 
 .subanswer a:hover{
   color: #E15A32;
 }
 
-.bioanswer {
-  text-align: right;
-  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-  text-align: right;
-  position: relative;
-  right: 0px;
-  bottom: 10px;
+.title {
+  transform: rotate(270deg);
+	transform-origin: left top 0;
   font-family: 'Cabin', sans-serif;
-  font-size: 2.5em;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.4em;
-  color: #FDFDFD;
-  -webkit-text-stroke-width: 1.5px;
-   -webkit-text-stroke-color: #E15A32;
+  font-style: italic;
+  font-weight: 700;
+  color: #E4B7AA;
+  font-size: 1.3em;
+  position: absolute;
 
 }
 
-.about{
+.content{
   padding-left: 10%;
-  padding-right: 10%;
-  margin-left: 36%;
-  padding-bottom: 5em;
-  margin-top: 0em;
-  width: 35%
+  padding-top: -15%;
 }
 
 .case {
@@ -144,10 +136,11 @@ animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   font-size: 0.85em;
   font-weight: 200;
   color: #5F5F5F;
-  text-align: right;
-  padding-top: 10em;
-  right: 10em;
-  position: absolute;
+  padding-top: 20em;
+  width: 60%;
+  left: 18em;
+  bottom: 10em;
+  position: relative;
 }
 
 img {
@@ -165,11 +158,9 @@ img {
 }
 
 .footer {
-  padding-left: 14em;
+  padding-left: 15.5em;
   padding-bottom: 8em;
   padding-right:10em;
-  bottom: 1
-  position: absolute;
 }
 
 .footer a {
