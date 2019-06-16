@@ -184,6 +184,7 @@ img {
   padding-bottom: 2em;
   padding-right:2em;
   padding-top: 2em;
+  z-index: 999;
 }
 
 .footer a {

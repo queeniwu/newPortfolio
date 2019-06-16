@@ -187,8 +187,9 @@ img {
 .footer {
   padding-left: 14em;
   padding-bottom: 4em;
-  padding-top: 8em;
+  padding-top: 10em;
   padding-right:10em;
+  z-index: 999;
 }
 
 .footer a {
@@ -202,6 +203,8 @@ img {
   text-decoration: none;
   font-weight: bold;
   margin-right: 2.8em;
+  z-index: 999;
+  position: relative;
 }
 
 .footer a:hover{
