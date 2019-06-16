@@ -82,7 +82,7 @@ body {
   right: 0px;
   padding-bottom: 3em;
   font-family: 'Cabin', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.25em;
   font-style: normal;
   font-weight: 800;
   line-height: 1.4em;
@@ -105,6 +105,15 @@ color:inherit;
 .answer a:hover{
   color: #E15A32;
   font-weight: 700;
+}
+.answer img{
+  width: 60%;
+  margin-top: 40px;
+  align-items: left;
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  display: flex;
+  margin-bottom: -14em;
+  margin-left: -110%;
 }
 
 .subanswer{
@@ -177,7 +186,8 @@ img {
 
 .footer {
   padding-left: 14em;
-  padding-bottom: 8em;
+  padding-bottom: 4em;
+  padding-top: 8em;
   padding-right:10em;
 }
 
