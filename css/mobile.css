@@ -25,10 +25,13 @@
 
 body {
   background-color: #FDFDFD;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
-  padding-left: 5em;
+  padding-left: 1em;
   padding-top: 5em;
   padding-right:10em;
 }
@@ -65,7 +68,7 @@ body {
 
 .question {
   text-align: left;
-  padding-left: 2em;
+  padding-left: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
   font-family: 'Cabin', sans-serif;
@@ -114,9 +117,9 @@ color: #E15A32;
 
 .subanswer{
   font-family: 'Nunito', sans-serif;
+  font-size: 0.25em;
   font-weight: 600;
   line-height: 2em;
-  font-size: 0.5em;
   letter-spacing: 0.05em;
   color: #AEAEAE;
   text-transform: uppercase;
@@ -157,7 +160,7 @@ color: #E15A32;
 .bio {
 animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   font-family: Nunito, sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 200;
   color: #5F5F5F;
   text-align: right;
@@ -180,10 +183,10 @@ img {
 }
 
 .footer {
-  padding-left: 2em;
-  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-bottom: 5em;
   padding-right:2em;
-  padding-top: 2em;
+  padding-top: 5em;
   z-index: 999;
 }
 
@@ -191,13 +194,13 @@ img {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   line-height: 0.75em;
-  font-size: 0.5em;
+  font-size: 10px;
   letter-spacing: 0.05em;
   color: #AEAEAE;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  margin-right: 2.8em;
+  margin-right: 2em;
 }
 
 .footer a:hover{

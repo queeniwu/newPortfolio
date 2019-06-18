@@ -25,6 +25,9 @@
 
 body {
   background-color: #FDFDFD;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav {
@@ -66,8 +69,8 @@ body {
 .question {
   text-align: left;
   padding-left: 7em;
-  padding-top: 5em;
-  padding-bottom: 2em;
+  padding-top: 6em;
+  padding-bottom: 1em;
   font-family: 'Cabin', sans-serif;
   font-size: 2em;
   color: #C3C3C3;

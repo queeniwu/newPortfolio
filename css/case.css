@@ -25,6 +25,9 @@
 
 body {
   background-color: #FDFDFD;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav {
@@ -129,6 +132,18 @@ body {
   margin-top: -7em;
 }
 
+.content .question {
+  text-align: right;
+  padding-left: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2em;
+  color: #AEAEAE;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
 .case {
 animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   font-family: Nunito, sans-serif;
@@ -140,6 +155,18 @@ animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   left: 18em;
   bottom: 5em;
   position: relative;
+}
+.content img {
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  display: block;
+  width: 100%;
+  align: left;
+  margin-left: 0em;
+  padding-bottom: 0em;
+  margin-top: 0em;
+  text-align: left;
+  padding-left: 0em;
+  padding-top: 0em;
 }
 
 .case a{

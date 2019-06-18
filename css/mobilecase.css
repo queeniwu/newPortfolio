@@ -25,10 +25,13 @@
 
 body {
   background-color: #FDFDFD;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
-  padding-left: 5em;
+  padding-left: 1em;
   padding-top: 5em;
   padding-right:10em;
 }
@@ -51,8 +54,8 @@ body {
 }
 
 .nav card{
-  width: 130px;
-  height: 97px;
+  width: 135px;
+  height: 100px;
   margin-bottom: -60px;
   display: inline-block;
   align: right;
@@ -96,7 +99,7 @@ body {
 .subheader{
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  line-height: 0em;
+  line-height: 0.1em;
   font-size: 0.25em;
   letter-spacing: 0.05em;
   color: #AEAEAE;
@@ -104,7 +107,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   -webkit-text-stroke-width: 0px;
-  margin-top: -2em;
+  margin-top: -1em;
 }
 
 .subanswer a:hover{
@@ -112,19 +115,35 @@ body {
 }
 
 .title {
-  transform: rotate(-90deg);
-  transform-origin: left top 0;
   font-family: 'Cabin', sans-serif;
   font-style: italic;
   font-weight: 700;
   color: #E4B7AA;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .content{
-  padding-left: 5em;
-  padding-bottom: 12em;
-  margin-top: -7em;
+  padding-left: 0em;
+  padding-bottom: 10em;
+  margin-top: 1em;
+}
+.content img {
+  animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+  display: block;
+  width: 100%;
+  padding-top: 10em;
+}
+
+.content .question {
+  text-align: right;
+  padding-left: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2em;
+  color: #AEAEAE;
+  line-height: 1.4em;
+  font-weight: 400;
 }
 
 .case {
@@ -134,8 +153,9 @@ animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   font-weight: 200;
   color: #5F5F5F;
   padding-top: 20em;
-  width: 80%;
-  left: 8em;
+  width: 100%;
+  left: 1em;
+  right: 1em;
   bottom: 5em;
   position: relative;
 }
@@ -148,13 +168,13 @@ animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
 img {
   animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   display: block;
-  width: 80%;
+  width: 100%;
   align: left;
-  margin-left: 7em;
+  margin-left: 0em;
   padding-bottom: 10em;
   margin-top: -7em;
   text-align: left;
-  padding-left: 2em;
+  padding-left: 0em;
   padding-top: 0em;
 }
 
