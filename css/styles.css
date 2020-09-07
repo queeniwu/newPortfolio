@@ -24,7 +24,7 @@
 
 
 body {
-  background-color: #FDFDFD;
+  background-color: #FFFAF2;
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
@@ -42,7 +42,7 @@ body {
   line-height: 0.75em;
   font-size: 0.75em;
   letter-spacing: 0.05em;
-  color: #AEAEAE;
+  color: #B5BDC2;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav a:hover{
-  color: #E15A32;
+  color: #072F53;
 }
 
 .nav card{
@@ -73,7 +73,7 @@ body {
   padding-bottom: 1em;
   font-family: 'Cabin', sans-serif;
   font-size: 2em;
-  color: #C3C3C3;
+  color: #B5BDC2;
   line-height: 1.4em;
   font-weight: 500;
 }
@@ -89,11 +89,11 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 1.4em;
-  color: #FDFDFD;
+  color: #FFFAF2;
   width: 40%;
   padding-left: 40%;
   -webkit-text-stroke-width: 1.5px;
-   -webkit-text-stroke-color: #E15A32;
+   -webkit-text-stroke-color: #072F53;
 
 }
 
@@ -106,7 +106,7 @@ color:inherit;
 }
 
 .answer a:hover{
-  color: #E15A32;
+  color: #072F53;
   font-weight: 700;
 }
 .answer img{
@@ -125,7 +125,7 @@ color:inherit;
   line-height: 2em;
   font-size: 0.3em;
   letter-spacing: 0.05em;
-  color: #AEAEAE;
+  color: #B5BDC2;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -133,7 +133,7 @@ color:inherit;
 }
 
 .subanswer a:hover{
-  color: #E15A32;
+  color: #B5BDC2;
 }
 
 .bioanswer {
@@ -148,9 +148,9 @@ color:inherit;
   font-style: normal;
   font-weight: 800;
   line-height: 1.4em;
-  color: #FDFDFD;
+  color: #FFFAF2;
   -webkit-text-stroke-width: 1.5px;
-   -webkit-text-stroke-color: #E15A32;
+   -webkit-text-stroke-color: #072F53;
 
 }
 
@@ -168,7 +168,7 @@ animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
   font-family: Nunito, sans-serif;
   font-size: 0.85em;
   font-weight: 200;
-  color: #5F5F5F;
+  color: #072F53;
   text-align: right;
   padding-top: 1em;
 }
@@ -211,5 +211,5 @@ img {
 }
 
 .footer a:hover{
-  color: #E15A32;
+  color: #B5BDC2;
 }
